@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Travel</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0f76c4db7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon" />
+  </head>
+  <body class="font-body">
+    <header class="px-5">
+      <!--nav section-->
+      <nav
+        class="container mx-auto mt-5 flex items-center justify-between lg:mt-12"
+      >
+        <div class="flex items-center space-x-2">
+          <img class="h-7 lg:h-12" src="./Images/logo.png" alt="" />
+          <p class="text-xl font-extrabold lg:text-4xl">
+            Hero <span class="text-[#FF5400]">Travel</span>
+          </p>
+        </div>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars text-xl text-[#131318]"></i>
+        </div>
+        <ul class="hidden lg:flex lg:space-x-11">
+          <li class="text-lg/[23px] font-bold text-[#FF5400]">Home</li>
+          <li class="text-lg/[23px] font-normal text-[#424247]">Packages</li>
+          <li class="text-lg/[23px] font-normal text-[#424247]">Testimonial</li>
+          <li class="text-lg/[23px] font-normal text-[#424247]">Blog</li>
+          <li class="text-lg/[23px] font-normal text-[#424247]">Contact</li>
+        </ul>
+      </nav>
+      <!--banner section-->
+      <div
+        class="container mx-auto mt-5 rounded-2xl bg-cover bg-center bg-no-repeat px-6 py-8 lg:mt-12 lg:py-28"
+        style="
+          background-image: linear-gradient(
+              180deg,
+              rgba(19, 19, 24, 0.8),
+              rgba(19, 19, 24, 0) 100%
+            ),
+            url(./Images/banner.png);
+        "
+      >
+        <p
+          class="text-center text-xl font-extrabold text-white lg:text-[64px]/[80px]"
+        >
+          Explore Your Travel
+        </p>
+        <p
+          class="mx-auto mt-2 text-center text-[14px]/[21px] font-normal text-white lg:mt-6 lg:max-w-2xl lg:text-base"
+        >
+          Dolor sit amet consectetur. suspendisse vitae ultricies dolor
+          adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+        </p>
+        <div
+          class="mt-8 flex flex-col space-y-4 rounded-lg bg-[#FFFFFF4D] p-4 lg:mx-auto lg:mt-12 lg:max-w-[800px] lg:flex-row lg:space-x-6 lg:space-y-0"
+        >
+          <input
+            type="text"
+            placeholder="Where go"
+            class="w-full rounded-lg py-4 pl-4 placeholder:text-base placeholder:font-normal placeholder:text-[#13131880]"
+          />
+          <select
+            name=""
+            id=""
+            class="w-full rounded-lg border-r-[16px] border-white py-4 pl-4 text-base font-normal text-[#13131880]"
+          >
+            <option value="">When</option>
+            <option value="">Day</option>
+            <option value="">Nignt</option>
+          </select>
+          <select
+            name=""
+            id=""
+            class="w-full rounded-lg border-r-[16px] border-white py-4 pl-4 text-base font-normal text-[#13131880]"
+          >
+            <option value="">Select type</option>
+            <option value="">Business</option>
+            <option value="">Economy</option>
+          </select>
+          <button
+            type="submit"
+            class="flex w-full items-center justify-center space-x-2 rounded-lg bg-[#FF5400] py-4 text-white"
+          >
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <p class="text-base font-bold">Find now</p>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="px-5 pt-6 lg:pt-24">
+      <!--Tour section-->
+      <section
+        class="container mx-auto space-y-6 lg:flex lg:space-x-12 lg:space-y-0"
+      >
+        <div class="tours space-y-4 lg:w-2/3 lg:space-y-6">
+          <p class="text-xl font-extrabold text-[#131318] lg:text-4xl">
+            Our Popular Tours
+          </p>
+          <p class="text-sm/[24px] font-normal text-[#131318B3] lg:text-base">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+          <ul class="list-disc space-y-3 pl-5">
+            <li class="text-sm font-normal text-[#131318B3] lg:text-base">
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li class="text-sm font-normal text-[#131318B3] lg:text-base">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li class="text-sm font-normal text-[#131318B3] lg:text-base">
+              Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+              Risus at in.
+            </li>
+          </ul>
+          <p class="text-sm/[24px] font-normal text-[#131318B3] lg:text-base">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare amet
+            et. Libero commodo sagittis dignissim quis. Habitant adipiscing
+            risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.
+          </p>
+          <a href=""
+            ><button
+              class="mt-6 rounded-lg bg-[#FF5400] px-9 py-4 text-xl font-extrabold text-white lg:mt-8"
+            >
+              Read More
+            </button></a
+          >
+        </div>
+        <div>
+          <img class="w-full rounded-2xl" src="./Images/mountain.png" alt="" />
+        </div>
+      </section>
+
+      <!--choose section-->
+      <section class="container mx-auto mt-6 space-y-4 lg:mt-24 lg:space-y-12">
+        <div class="space-y-4 text-center lg:space-y-6">
+          <p class="text-xl font-extrabold text-[#131318] lg:text-5xl">
+            Choose Your Destination
+          </p>
+          <p
+            class="mx-auto w-5/6 text-sm font-normal text-[#131318B3] lg:w-[650px] lg:text-base"
+          >
+            Sit amet consectetur. Diam volutpat neque habitasse pharetra odio
+            sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+        </div>
+        <div class="space-y-4 lg:space-y-6">
+          <div
+            class="row1 grid grid-rows-[repeat(2,50vw)] space-y-4 lg:grid-cols-2 lg:grid-rows-[25vw] lg:space-x-6 lg:space-y-0"
+          >
+            <div
+              style="background-image: url(&quot;./Images/maldives.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                Maldives
+              </p>
+            </div>
+            <div
+              style="background-image: url(&quot;./Images/indonesia.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                Indonesia
+              </p>
+            </div>
+          </div>
+          <div
+            class="row2 grid grid-rows-[repeat(3,50vw)] space-y-4 lg:grid-cols-[1.3fr_1.75fr_1fr] lg:grid-rows-[25vw] lg:space-x-6 lg:space-y-0"
+          >
+            <div
+              style="background-image: url(&quot;./Images/srilanka.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                Srilanka
+              </p>
+            </div>
+            <div
+              style="background-image: url(&quot;./Images/north.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                North America
+              </p>
+            </div>
+            <div
+              style="background-image: url(&quot;./Images/kashmir.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                Kashmir
+              </p>
+            </div>
+          </div>
+          <div
+            class="row3 grid grid-rows-[repeat(2,50vw)] space-y-4 lg:grid-cols-[1fr_1.42fr] lg:grid-rows-[25vw] lg:space-x-6 lg:space-y-0"
+          >
+            <div
+              style="background-image: url(&quot;./Images/bangladesh.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                Bangladesh
+              </p>
+            </div>
+            <div
+              style="background-image: url(&quot;./Images/bandarban.png&quot;)"
+              class="flex items-center justify-center rounded-2xl bg-[#13131833] bg-cover bg-center bg-no-repeat bg-blend-overlay"
+            >
+              <p
+                class="text-xl font-bold text-white lg:text-3xl lg:font-extrabold"
+              >
+                Bandarban
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Why choose us-->
+      <section class="container mx-auto mt-6 space-y-4 lg:mt-24 lg:space-y-12">
+        <div
+          class="mx-auto w-[95%] space-y-4 text-center lg:max-w-2xl lg:space-y-6"
+        >
+          <p class="text-xl font-extrabold text-[#131318] lg:text-4xl">
+            Why Choose Us
+          </p>
+          <p class="text-sm font-normal text-[#131318B3] lg:text-base">
+            Sit amet consectetur. Diam volutpat neque habitasse pharetra odio
+            sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+        </div>
+        <div class="mx-auto space-y-4 lg:space-y-6">
+          <!--row 1-->
+          <div
+            class="row1 justify-center space-y-4 lg:flex lg:space-x-6 lg:space-y-0"
+          >
+            <div
+              class="mx-auto max-w-[400px] space-y-4 rounded-2xl border border-solid border-[#FBB56333] bg-[#FBB5630D] p-8 lg:mx-0 lg:max-w-xl"
+            >
+              <img src="./Images/icon1.png" alt="" class="w-12" />
+              <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+                Handpicked Hotels
+              </p>
+              <p class="text-sm font-normal text-[#5A5A5D] lg:text-base">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
+            <div
+              class="mx-auto max-w-[400px] space-y-4 rounded-2xl border border-solid border-[#29CEF633] bg-[#29CEF60D] p-8 lg:mx-0 lg:h-full lg:max-w-xl"
+            >
+              <img src="./Images/icon2.png" alt="" class="w-12" />
+              <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+                World Class Service
+              </p>
+              <p class="text-sm font-normal text-[#5A5A5D] lg:text-base">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
+          </div>
+          <!--row 2-->
+          <div class="row2">
+            <div
+              class="mx-auto max-w-[400px] space-y-4 rounded-2xl border border-solid border-[#FBB56333] bg-[#FBB5630D] p-8 lg:max-w-xl"
+            >
+              <img src="./Images/icon3.png" alt="" class="w-12" />
+              <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+                Best Price Gaurantee
+              </p>
+              <p class="text-sm font-normal text-[#5A5A5D] lg:text-base">
+                Amet consectetur. Vulputate commodo felis molestie risus ornare
+                nulla amet et. Libero commodo sagittis dignissim adipiscing
+                quis. Habitant adipiscing risus natoque aliquet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--discount section-->
+      <section class="container mx-auto mt-6 space-y-4 lg:mt-24 lg:space-y-12">
+        <div
+          class="mx-auto w-11/12 space-y-4 text-center lg:max-w-[650px] lg:space-y-6"
+        >
+          <p
+            class="text-xl font-extrabold text-[#131318] lg:text-[40px]/[50px]"
+          >
+            Deal & Discounts
+          </p>
+          <p class="text-sm text-[#131318B3] lg:text-base">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+        </div>
+        <!--destionation parts-->
+        <div class="space-y-4 lg:space-y-6">
+          <div
+            class="rounded-2xl bg-slate-600 bg-cover bg-center bg-no-repeat p-4 pt-48 lg:flex lg:justify-end lg:p-14"
+            style="background-image: url(&quot;./Images/deals1.png&quot;)"
+          >
+            <!--info box-->
+            <div
+              class="rounded-2xl border-2 border-solid border-white bg-[#FFFFFFCC] p-6 backdrop-blur-sm lg:w-[570px] lg:p-12 lg:pr-16"
+            >
+              <div class="space-y-5 lg:flex lg:space-x-6 lg:space-y-0">
+                <div class="space-x-2">
+                  <i class="fa-solid fa-clock fa-lg text-[#FF5400]"></i>
+                  <span class="text-base font-normal text-[#5A5A5D]"
+                    >7 Day / 6 Night</span
+                  >
+                </div>
+                <div class="flex space-x-6">
+                  <div class="space-x-2">
+                    <i class="fa-solid fa-users fa-lg text-[#FF5400]"></i>
+                    <span class="text-base font-normal text-[#5A5A5D]"
+                      >Max : 10</span
+                    >
+                  </div>
+                  <div class="space-x-2">
+                    <i
+                      class="fa-solid fa-location-dot fa-lg text-[#FF5400]"
+                    ></i>
+                    <span class="text-base font-normal text-[#5A5A5D]"
+                      >Malaysia</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 space-y-2 lg:mt-6 lg:space-y-4">
+                <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+                  Tour To Satorini
+                </p>
+                <p class="text-sm text-[#5A5A5D] lg:text-base">
+                  Amet consectetur. Vulputate commodo felis molestie risus
+                  ornare nulla amet et. Libero commodo sagittis dignissim
+                  adipiscing quis. Habitant adipiscing.
+                </p>
+              </div>
+              <p
+                class="mt-3 text-base font-extrabold text-[#FF5400] lg:mt-4 lg:text-xl"
+              >
+                Price: $1300-$1500
+              </p>
+              <a href=""
+                ><button
+                  class="mt-4 rounded-lg bg-[#FF5400] px-5 py-2 text-xl font-bold text-white lg:mt-6 lg:font-extrabold"
+                >
+                  Book Now
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="rounded-2xl bg-slate-600 bg-cover bg-center bg-no-repeat p-4 pt-48 lg:flex lg:justify-start lg:p-14"
+            style="background-image: url(&quot;./Images/deals2.png&quot;)"
+          >
+            <!--info box-->
+            <div
+              class="rounded-2xl border-2 border-solid border-white bg-[#FFFFFFCC] p-6 backdrop-blur-sm lg:w-[570px] lg:p-12 lg:pr-16"
+            >
+              <div class="space-y-5 lg:flex lg:space-x-6 lg:space-y-0">
+                <div class="space-x-2">
+                  <i class="fa-solid fa-clock fa-lg text-[#FF5400]"></i>
+                  <span class="text-base font-normal text-[#5A5A5D]"
+                    >7 Day / 6 Night</span
+                  >
+                </div>
+                <div class="flex space-x-6">
+                  <div class="space-x-2">
+                    <i class="fa-solid fa-users fa-lg text-[#FF5400]"></i>
+                    <span class="text-base font-normal text-[#5A5A5D]"
+                      >Max : 10</span
+                    >
+                  </div>
+                  <div class="space-x-2">
+                    <i
+                      class="fa-solid fa-location-dot fa-lg text-[#FF5400]"
+                    ></i>
+                    <span class="text-base font-normal text-[#5A5A5D]"
+                      >Malaysia</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 space-y-2 lg:mt-6 lg:space-y-4">
+                <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+                  Tour To Satorini
+                </p>
+                <p class="text-sm text-[#5A5A5D] lg:text-base">
+                  Amet consectetur. Vulputate commodo felis molestie risus
+                  ornare nulla amet et. Libero commodo sagittis dignissim
+                  adipiscing quis. Habitant adipiscing.
+                </p>
+              </div>
+              <p
+                class="mt-3 text-base font-extrabold text-[#FF5400] lg:mt-4 lg:text-xl"
+              >
+                Price: $1300-$1500
+              </p>
+              <a href=""
+                ><button
+                  class="mt-4 rounded-lg bg-[#FF5400] px-5 py-2 text-xl font-bold text-white lg:mt-6 lg:font-extrabold"
+                >
+                  Book Now
+                </button></a
+              >
+            </div>
+          </div>
+          <div
+            class="rounded-2xl bg-slate-600 bg-cover bg-center bg-no-repeat p-4 pt-48 lg:flex lg:justify-end lg:p-14"
+            style="background-image: url(&quot;./Images/deals1.png&quot;)"
+          >
+            <!--info box-->
+            <div
+              class="rounded-2xl border-2 border-solid border-white bg-[#FFFFFFCC] p-6 backdrop-blur-sm lg:w-[570px] lg:p-12 lg:pr-16"
+            >
+              <div class="space-y-5 lg:flex lg:space-x-6 lg:space-y-0">
+                <div class="space-x-2">
+                  <i class="fa-solid fa-clock fa-lg text-[#FF5400]"></i>
+                  <span class="text-base font-normal text-[#5A5A5D]"
+                    >7 Day / 6 Night</span
+                  >
+                </div>
+                <div class="flex space-x-6">
+                  <div class="space-x-2">
+                    <i class="fa-solid fa-users fa-lg text-[#FF5400]"></i>
+                    <span class="text-base font-normal text-[#5A5A5D]"
+                      >Max : 10</span
+                    >
+                  </div>
+                  <div class="space-x-2">
+                    <i
+                      class="fa-solid fa-location-dot fa-lg text-[#FF5400]"
+                    ></i>
+                    <span class="text-base font-normal text-[#5A5A5D]"
+                      >Malaysia</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-4 space-y-2 lg:mt-6 lg:space-y-4">
+                <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+                  Tour To Satorini
+                </p>
+                <p class="text-sm text-[#5A5A5D] lg:text-base">
+                  Amet consectetur. Vulputate commodo felis molestie risus
+                  ornare nulla amet et. Libero commodo sagittis dignissim
+                  adipiscing quis. Habitant adipiscing.
+                </p>
+              </div>
+              <p
+                class="mt-3 text-base font-extrabold text-[#FF5400] lg:mt-4 lg:text-xl"
+              >
+                Price: $1300-$1500
+              </p>
+              <a href=""
+                ><button
+                  class="mt-4 rounded-lg bg-[#FF5400] px-5 py-2 text-xl font-bold text-white lg:mt-6 lg:font-extrabold"
+                >
+                  Book Now
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--A Simple Perfect Place To Get Lost-->
+      <section
+        class="container mx-auto mt-6 space-y-6 lg:mt-24 lg:flex lg:items-center lg:justify-between lg:space-x-7 lg:space-y-0"
+      >
+        <!--text box-->
+        <div class="w-full space-y-4 lg:w-1/2 lg:space-y-6">
+          <p
+            class="w-3/5 text-xl font-extrabold text-[#131318] lg:w-11/12 lg:text-[40px]/[60px]"
+          >
+            A Simple Perfect Place To Get Lost
+          </p>
+          <p class="text-sm font-normal text-[#5A5A5D] lg:text-base">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+          </p>
+          <ul class="list-inside list-disc space-y-4 lg:space-y-6">
+            <li class="text-sm font-bold lg:text-base">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li class="text-sm font-bold lg:text-base">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. Lectus suspendisse nullam.
+            </li>
+          </ul>
+          <a href="" class="inline-block"
+            ><button
+              class="rounded-lg bg-[#FF5400] px-10 py-[14px] text-xl font-extrabold text-white"
+            >
+              See More
+            </button></a
+          >
+        </div>
+
+        <!--video part-->
+        <div><img src="./Images/video.png" alt="video" /></div>
+      </section>
+
+      <!--Newsletter-->
+      <section
+        class="container mx-auto mt-6 space-y-4 lg:mt-24 lg:grid lg:grid-cols-[1fr_1.41fr] lg:space-x-6 lg:space-y-0"
+      >
+        <div
+          class="rounded-2xl border border-solid border-[#FF5400] p-6 lg:p-10"
+        >
+          <p class="text-xl font-extrabold text-[#131318] lg:text-2xl">
+            Newsletter
+          </p>
+          <p
+            class="mt-2 text-sm font-normal text-[#5A5A5D] lg:mt-4 lg:text-base"
+          >
+            Get your daily dose of travel news & tips. Sign up today!
+          </p>
+          <hr class="mt-4 border border-solid border-[#1313181A] lg:mt-6" />
+          <input
+            type="text"
+            class="mt-4 w-full rounded-lg bg-[#1313180D] py-4 pl-5 lg:mt-6"
+            placeholder="Enter your name"
+          />
+          <input
+            type="text"
+            class="mt-4 w-full rounded-lg bg-[#1313180D] py-4 pl-5"
+            placeholder="Enter your email"
+          /><br />
+          <a href="" class="mt-5 inline-block w-full lg:mt-6"
+            ><button
+              class="w-full rounded-lg bg-[#FF5400] py-[14px] text-xl font-extrabold text-white"
+            >
+              Subscribe
+            </button></a
+          >
+        </div>
+        <div
+          class="relative h-[320px] w-full rounded-2xl bg-cover bg-center bg-no-repeat lg:h-full lg:w-auto"
+          style="background-image: url(&quot;./Images/off.png&quot;)"
+        >
+          <div
+            class="absolute bottom-14 right-0 -rotate-45 rounded-lg bg-[#FF5400] px-10 py-4 lg:bottom-24 lg:rounded-2xl lg:px-12 lg:py-5"
+          >
+            <p class="text-center text-base font-normal text-white lg:text-2xl">
+              Travel.com
+            </p>
+            <p class="font-extrabold text-white lg:text-3xl">Save up to 70%</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-6 bg-[#1313180D] px-5 py-8 lg:mt-24 lg:py-28">
+      <div class="mx-auto flex max-w-[870px] flex-col items-center text-center">
+        <div class="flex items-center space-x-2">
+          <img class="h-7 lg:h-12" src="./Images/logo.png" alt="" />
+          <p class="text-xl font-extrabold lg:text-4xl">
+            Hero <span class="text-[#FF5400]">Travel</span>
+          </p>
+        </div>
+        <p
+          class="mt-4 w-11/12 text-sm font-normal text-[#5A5A5D] lg:w-9/12 lg:text-base"
+        >
+          Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae
+          blandit orci potenti vulputate. Leo erat maecenas vitae elementum
+          ultricies nullam.
+        </p>
+        <div class="mt-4 space-x-8 lg:mt-8">
+          <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <a href=""><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
+        <hr
+          class="mt-6 w-full border border-solid border-[#1313181A] lg:mt-12"
+        />
+        <p
+          class="mt-6 font-inter text-sm font-light text-[#131318] lg:h-1/2 lg:text-base"
+        >
+          2017, All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
